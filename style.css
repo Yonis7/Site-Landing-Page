@@ -1,0 +1,88 @@
+  @import url('https://fonts.googleapis.com/css2?family=Bungee&family=Roboto+Slab&family=Source+Sans+Pro:ital,wght@1,300;1,600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'roboto slab', serif;
+}
+.first-section {
+  background-color: #1f2937;
+}
+
+#header-logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.header-link {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin: 10px;
+
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar-right, .navbar-left {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bolder;
+  color: white;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+}
+
+.content-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+}
+
+.content-left {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: center;
+  margin-left: 150px;
+
+}
+img {
+  margin-bottom: 50px;
+}
+
+.p-first{
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.sign-up-first-section {
+  background-color: #3882f6;
+  color: white;
+  width: 80px;
+  height: 35px;
+  border: 1px solid #3882f6;
+  border-radius: 5px;
+}
